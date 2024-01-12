@@ -1,0 +1,7 @@
+/home/zas/CERN/SCINT/CMakeFiles/SCINT.dir
+/home/zas/CERN/SCINT/CMakeFiles/edit_cache.dir
+/home/zas/CERN/SCINT/CMakeFiles/rebuild_cache.dir
+/home/zas/CERN/SCINT/CMakeFiles/list_install_components.dir
+/home/zas/CERN/SCINT/CMakeFiles/install.dir
+/home/zas/CERN/SCINT/CMakeFiles/install/local.dir
+/home/zas/CERN/SCINT/CMakeFiles/install/strip.dir

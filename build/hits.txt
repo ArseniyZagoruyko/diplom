@@ -1,0 +1,18 @@
+DetectorID: 1	Time: 4.53133e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (-19.2348,131,-25.388) mm
+
+DetectorID: 1	Time: 4.41201e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (-7.41408,131,-3.87353) mm
+
+DetectorID: 1	Time: 4.43182e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (12.7927,131,7.83638) mm
+
+DetectorID: 1	Time: 4.63885e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (-15.3136,131,40.6545) mm
+
+868) mm
+
+DetectorID: 2	Time: 3.97254e-10 s	 Particle: gamma	 EnergyGamma: 467.946keV	 Position: (2.50185,-117,0.587963) mm
+
+DetectorID: 2	Time: 3.96178e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (-11.4255,-117,-6.9989) mm
+
+DetectorID: 2	Time: 4.13615e-10 s	 Particle: gamma	 EnergyGamma: 439.851keV	 Position: (10.6842,-117,-27.7239) mm
+
+DetectorID: 2	Time: 4.0567e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (15.5313,-117,-24.7147) mm
+
