@@ -7,6 +7,8 @@
 #include <G4PVPlacement.hh>
 #include <G4AssemblyVolume.hh>
 #include <G4SubtractionSolid.hh>
+#include <G4SDManager.hh>
+#include "SensitiveDetector.hh"
 
 
 class DetectorConstruction : public G4VUserDetectorConstruction
@@ -24,6 +26,15 @@ private:
 
     virtual G4VPhysicalVolume* Construct();
     virtual void ConstructSDandField();
+
+    SensitiveDetector* sensitiveDetector1;
+    SensitiveDetector* sensitiveDetector2;
+
+    G4LogicalVolume* thinVolumeLogical1;
+    G4LogicalVolume* thinVolumeLogical2;
+
+    // G4SDManager для чувствительных детекторов 
+    G4SDManager* SDman;
 
 public:
     void ConstructQuartzRadiator(const G4String &name);

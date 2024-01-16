@@ -352,7 +352,8 @@ CMakeFiles/SCINT.dir/src/DetectorConstruction.cc.o: \
  /home/zas/CERN/geant4-install/include/Geant4/G4AffineTransform.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4AffineTransform.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4BooleanSolid.icc \
- /home/zas/CERN/SCINT/include/SensitiveDetector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SDManager.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SDStructure.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VHit.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Step.hh \
@@ -408,6 +409,10 @@ CMakeFiles/SCINT.dir/src/DetectorConstruction.cc.o: \
  /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistory.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4CollectionNameVector.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4HCtable.hh \
+ /home/zas/CERN/SCINT/include/SensitiveDetector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/zas/CERN/SCINT/include/SensitiveDetector.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4SystemOfUnits.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4PVReplica.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VisAttributes.hh \
@@ -418,10 +423,6 @@ CMakeFiles/SCINT.dir/src/DetectorConstruction.cc.o: \
  /home/zas/CERN/geant4-install/include/Geant4/G4Colour.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Tubs.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Tubs.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4SDManager.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4SDStructure.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4HCtable.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Cons.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Cons.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4Orb.hh \

@@ -4,7 +4,7 @@
 
 #---------- CAMERA
 Viewpoint {
-	position 0 0 396.59
+	position 0 0 397.292
 }
 
 #---------- SOLID: QuartzRadiator1:0
@@ -298,56 +298,56 @@ Viewpoint {
 		geometry IndexedFaceSet {
 			coord Coordinate {
 				point [
-					100 122.5 3.06162e-17,
-					96.5926 122.5 -25.8819,
-					86.6025 122.5 -50,
-					70.7107 122.5 -70.7107,
-					50 122.5 -86.6025,
-					25.8819 122.5 -96.5926,
-					6.12323e-15 122.5 -100,
-					-25.8819 122.5 -96.5926,
-					-50 122.5 -86.6025,
-					-70.7107 122.5 -70.7107,
-					-86.6025 122.5 -50,
-					-96.5926 122.5 -25.8819,
-					-100 122.5 -1.22159e-14,
-					-96.5926 122.5 25.8819,
-					-86.6025 122.5 50,
-					-70.7107 122.5 70.7107,
-					-50 122.5 86.6025,
-					-25.8819 122.5 96.5926,
-					-1.83697e-14 122.5 100,
-					25.8819 122.5 96.5926,
-					50 122.5 86.6025,
-					70.7107 122.5 70.7107,
-					86.6025 122.5 50,
-					96.5926 122.5 25.8819,
-					100 121.5 -3.06162e-17,
-					96.5926 121.5 -25.8819,
-					86.6025 121.5 -50,
-					70.7107 121.5 -70.7107,
-					50 121.5 -86.6025,
-					25.8819 121.5 -96.5926,
-					6.12323e-15 121.5 -100,
-					-25.8819 121.5 -96.5926,
-					-50 121.5 -86.6025,
-					-70.7107 121.5 -70.7107,
-					-86.6025 121.5 -50,
-					-96.5926 121.5 -25.8819,
-					-100 121.5 -1.22771e-14,
-					-96.5926 121.5 25.8819,
-					-86.6025 121.5 50,
-					-70.7107 121.5 70.7107,
-					-50 121.5 86.6025,
-					-25.8819 121.5 96.5926,
-					-1.83697e-14 121.5 100,
-					25.8819 121.5 96.5926,
-					50 121.5 86.6025,
-					70.7107 121.5 70.7107,
-					86.6025 121.5 50,
-					96.5926 121.5 25.8819,
-					0 122.5 3.06162e-17,
-					0 121.5 -3.06162e-17,
+					100 146.5 3.06162e-17,
+					96.5926 146.5 -25.8819,
+					86.6025 146.5 -50,
+					70.7107 146.5 -70.7107,
+					50 146.5 -86.6025,
+					25.8819 146.5 -96.5926,
+					6.12323e-15 146.5 -100,
+					-25.8819 146.5 -96.5926,
+					-50 146.5 -86.6025,
+					-70.7107 146.5 -70.7107,
+					-86.6025 146.5 -50,
+					-96.5926 146.5 -25.8819,
+					-100 146.5 -1.22159e-14,
+					-96.5926 146.5 25.8819,
+					-86.6025 146.5 50,
+					-70.7107 146.5 70.7107,
+					-50 146.5 86.6025,
+					-25.8819 146.5 96.5926,
+					-1.83697e-14 146.5 100,
+					25.8819 146.5 96.5926,
+					50 146.5 86.6025,
+					70.7107 146.5 70.7107,
+					86.6025 146.5 50,
+					96.5926 146.5 25.8819,
+					100 145.5 -3.06162e-17,
+					96.5926 145.5 -25.8819,
+					86.6025 145.5 -50,
+					70.7107 145.5 -70.7107,
+					50 145.5 -86.6025,
+					25.8819 145.5 -96.5926,
+					6.12323e-15 145.5 -100,
+					-25.8819 145.5 -96.5926,
+					-50 145.5 -86.6025,
+					-70.7107 145.5 -70.7107,
+					-86.6025 145.5 -50,
+					-96.5926 145.5 -25.8819,
+					-100 145.5 -1.22771e-14,
+					-96.5926 145.5 25.8819,
+					-86.6025 145.5 50,
+					-70.7107 145.5 70.7107,
+					-50 145.5 86.6025,
+					-25.8819 145.5 96.5926,
+					-1.83697e-14 145.5 100,
+					25.8819 145.5 96.5926,
+					50 145.5 86.6025,
+					70.7107 145.5 70.7107,
+					86.6025 145.5 50,
+					96.5926 145.5 25.8819,
+					0 146.5 3.06162e-17,
+					0 145.5 -3.06162e-17,
 				]
 			}
 			coordIndex [
@@ -438,56 +438,56 @@ Viewpoint {
 		geometry IndexedFaceSet {
 			coord Coordinate {
 				point [
-					100 -107.5 3.06162e-17,
-					96.5926 -107.5 -25.8819,
-					86.6025 -107.5 -50,
-					70.7107 -107.5 -70.7107,
-					50 -107.5 -86.6025,
-					25.8819 -107.5 -96.5926,
-					6.12323e-15 -107.5 -100,
-					-25.8819 -107.5 -96.5926,
-					-50 -107.5 -86.6025,
-					-70.7107 -107.5 -70.7107,
-					-86.6025 -107.5 -50,
-					-96.5926 -107.5 -25.8819,
-					-100 -107.5 -1.22159e-14,
-					-96.5926 -107.5 25.8819,
-					-86.6025 -107.5 50,
-					-70.7107 -107.5 70.7107,
-					-50 -107.5 86.6025,
-					-25.8819 -107.5 96.5926,
-					-1.83697e-14 -107.5 100,
-					25.8819 -107.5 96.5926,
-					50 -107.5 86.6025,
-					70.7107 -107.5 70.7107,
-					86.6025 -107.5 50,
-					96.5926 -107.5 25.8819,
-					100 -108.5 -3.06162e-17,
-					96.5926 -108.5 -25.8819,
-					86.6025 -108.5 -50,
-					70.7107 -108.5 -70.7107,
-					50 -108.5 -86.6025,
-					25.8819 -108.5 -96.5926,
-					6.12323e-15 -108.5 -100,
-					-25.8819 -108.5 -96.5926,
-					-50 -108.5 -86.6025,
-					-70.7107 -108.5 -70.7107,
-					-86.6025 -108.5 -50,
-					-96.5926 -108.5 -25.8819,
-					-100 -108.5 -1.22771e-14,
-					-96.5926 -108.5 25.8819,
-					-86.6025 -108.5 50,
-					-70.7107 -108.5 70.7107,
-					-50 -108.5 86.6025,
-					-25.8819 -108.5 96.5926,
-					-1.83697e-14 -108.5 100,
-					25.8819 -108.5 96.5926,
-					50 -108.5 86.6025,
-					70.7107 -108.5 70.7107,
-					86.6025 -108.5 50,
-					96.5926 -108.5 25.8819,
-					0 -107.5 3.06162e-17,
-					0 -108.5 -3.06162e-17,
+					100 -131.5 3.06162e-17,
+					96.5926 -131.5 -25.8819,
+					86.6025 -131.5 -50,
+					70.7107 -131.5 -70.7107,
+					50 -131.5 -86.6025,
+					25.8819 -131.5 -96.5926,
+					6.12323e-15 -131.5 -100,
+					-25.8819 -131.5 -96.5926,
+					-50 -131.5 -86.6025,
+					-70.7107 -131.5 -70.7107,
+					-86.6025 -131.5 -50,
+					-96.5926 -131.5 -25.8819,
+					-100 -131.5 -1.22159e-14,
+					-96.5926 -131.5 25.8819,
+					-86.6025 -131.5 50,
+					-70.7107 -131.5 70.7107,
+					-50 -131.5 86.6025,
+					-25.8819 -131.5 96.5926,
+					-1.83697e-14 -131.5 100,
+					25.8819 -131.5 96.5926,
+					50 -131.5 86.6025,
+					70.7107 -131.5 70.7107,
+					86.6025 -131.5 50,
+					96.5926 -131.5 25.8819,
+					100 -132.5 -3.06162e-17,
+					96.5926 -132.5 -25.8819,
+					86.6025 -132.5 -50,
+					70.7107 -132.5 -70.7107,
+					50 -132.5 -86.6025,
+					25.8819 -132.5 -96.5926,
+					6.12323e-15 -132.5 -100,
+					-25.8819 -132.5 -96.5926,
+					-50 -132.5 -86.6025,
+					-70.7107 -132.5 -70.7107,
+					-86.6025 -132.5 -50,
+					-96.5926 -132.5 -25.8819,
+					-100 -132.5 -1.22771e-14,
+					-96.5926 -132.5 25.8819,
+					-86.6025 -132.5 50,
+					-70.7107 -132.5 70.7107,
+					-50 -132.5 86.6025,
+					-25.8819 -132.5 96.5926,
+					-1.83697e-14 -132.5 100,
+					25.8819 -132.5 96.5926,
+					50 -132.5 86.6025,
+					70.7107 -132.5 70.7107,
+					86.6025 -132.5 50,
+					96.5926 -132.5 25.8819,
+					0 -131.5 3.06162e-17,
+					0 -132.5 -3.06162e-17,
 				]
 			}
 			coordIndex [
@@ -579,9 +579,9 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				7.36818 -82 7.42205,
-				11.861 -132 11.9477,
-				224.64 -2500 226.282,
+				-12.9492 -82 -17.9334,
+				-20.845 -132 -28.8683,
+				-20.924 -132.5 -28.9777,
 			]
 		}
 		coordIndex [
@@ -601,19 +601,62 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				-8.62617 96 -8.68923,
-				-9.37793 104.366 -9.44649,
-				-7.48365 107.161 -6.84019,
-				-59.4128 137.011 26.6234,
-				-55.4901 139.068 11.1786,
-				-54.1655 143.804 8.33242,
-				-54.7149 143.274 8.09427,
-				-58.2453 146 8.59718,
-				-2500 2031.11 356.426,
+				15.16 96 20.9952,
+				23.0559 146 31.9301,
+				23.1348 146.5 32.0395,
 			]
 		}
 		coordIndex [
-			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				18.9577 -82 12.0397,
+				30.5173 -132 19.3811,
+				30.6329 -132.5 19.4545,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-22.1944 96 -14.0953,
+				-26.8235 116.023 -17.0352,
+				-30.1333 114.38 -15.0732,
+				-37.2588 133.232 -33.0444,
+				-37.3698 133.404 -33.3274,
+				-25.5586 145.282 -43.5886,
+				-25.79 146 -43.928,
+				-25.9511 146.5 -44.1643,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, 5, 6, 7, 8, -1
 		]
 	}
 }
@@ -628,68 +671,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-54.7149 143.274 8.09427,
-				-54.7149 143.274 8.09405,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-54.1655 143.804 8.33242,
-				-54.1634 143.807 8.33161,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-55.4901 139.068 11.1786,
-				-55.4901 139.068 11.1782,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-59.4128 137.011 26.6234,
-				-59.4305 137.018 26.6439,
+				-25.5586 145.282 -43.5886,
+				-25.558 145.282 -43.5887,
 			]
 		}
 		coordIndex [
@@ -708,8 +691,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-7.48365 107.161 -6.84019,
-				-7.44754 107.175 -6.82905,
+				-37.3698 133.404 -33.3274,
+				-37.3709 133.404 -33.3278,
 			]
 		}
 		coordIndex [
@@ -728,8 +711,48 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-9.37793 104.366 -9.44649,
-				-9.40731 104.406 -9.48448,
+				-37.2588 133.232 -33.0444,
+				-37.2588 133.232 -33.0444,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				-30.1333 114.38 -15.0732,
+				-30.1434 114.366 -15.0589,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				-26.8235 116.023 -17.0352,
+				-26.8062 116.178 -17.0829,
 			]
 		}
 		coordIndex [
@@ -749,16 +772,17 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				-16.5254 -82 -11.9474,
-				-17.1408 -85.0537 -12.3923,
-				-17.6294 -86.5132 -13.7784,
-				-31.6518 -104.928 -78.9492,
-				-30.4687 -132 -74.6817,
-				73.0109 -2500 298.596,
+				17.4376 -82 -12.192,
+				18.3066 -86.0865 -12.7996,
+				24.6133 -89.5601 -29.5161,
+				24.3872 -98.393 -21.1553,
+				24.6657 -107.085 -19.9651,
+				22.1454 -132 15.7781,
+				22.0949 -132.5 16.4955,
 			]
 		}
 		coordIndex [
-			0, 1, 2, 3, 4, 5, 6, -1
+			0, 1, 2, 3, 4, 5, 6, 7, -1
 		]
 	}
 }
@@ -773,28 +797,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-31.6518 -104.928 -78.9492,
-				-31.6648 -104.909 -79.0082,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-17.6294 -86.5132 -13.7784,
-				-17.6302 -86.5198 -13.776,
+				24.6657 -107.085 -19.9651,
+				24.6658 -107.086 -19.9658,
 			]
 		}
 		coordIndex [
@@ -813,8 +817,48 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-17.1408 -85.0537 -12.3923,
-				-17.1406 -85.0656 -12.3786,
+				24.3872 -98.393 -21.1553,
+				24.3872 -98.3929 -21.1549,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				24.6133 -89.5601 -29.5161,
+				24.6292 -89.5518 -29.5728,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				18.3066 -86.0865 -12.7996,
+				18.3058 -86.1653 -12.7601,
 			]
 		}
 		coordIndex [
@@ -834,10 +878,10 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				19.3468 96 13.9872,
-				21.5798 107.08 15.6016,
-				21.571 146 0.810903,
-				21.0365 2500 -893.787,
+				-20.4147 96 14.2736,
+				-29.3447 137.993 20.5172,
+				-38.037 146 20.4018,
+				-38.5798 146.5 20.3946,
 			]
 		}
 		coordIndex [
@@ -856,8 +900,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				21.5798 107.08 15.6016,
-				21.5849 107.084 15.6134,
+				-29.3447 137.993 20.5172,
+				-29.3301 138.007 20.5226,
 			]
 		}
 		coordIndex [
@@ -877,16 +921,210 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				0.425772 -82 21.8182,
-				0.442313 -85.1856 22.6658,
-				7.78466 -118.335 25.9794,
-				18.7277 -115.623 26.0553,
-				5.8171 -104.85 34.3129,
-				15.3446 -104.97 33.841,
-				3.38848 -104.334 7.77083,
-				-1.01487 -101.15 0.770157,
-				-0.998656 -115.629 8.04787,
-				10.8467 -117.065 11.4095,
+				6.5668 -82 14.4803,
+				10.5709 -132 23.3097,
+				10.611 -132.5 23.398,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-7.68796 96 -16.9525,
+				-11.6921 146 -25.782,
+				-11.7322 146.5 -25.8702,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				18.5245 -82 -0.153016,
+				24.3063 -107.594 -0.200776,
+				33.7051 -128.211 1.53715,
+				40.5059 -132 6.47728,
+				41.4032 -132.5 7.12911,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, 5, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				33.7051 -128.211 1.53715,
+				33.6973 -128.238 1.52096,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				24.3063 -107.594 -0.200776,
+				24.3058 -107.594 -0.201017,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-21.6872 96 0.179141,
+				-30.0924 133.206 0.24857,
+				-31.5477 146 -5.84089,
+				-31.6046 146.5 -6.07888,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				-30.0924 133.206 0.24857,
+				-30.0947 133.209 0.255551,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				16.405 -82 -16.5604,
+				23.1331 -115.63 -23.3522,
+				4.98343 -82 -0.379748,
+				-1388.48 2500 1763.36,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				23.1331 -115.63 -23.3522,
+				23.186 -115.825 -23.4114,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-19.2058 96 19.3878,
+				-19.9969 99.9542 20.1864,
+				-18.5665 96 20.4322,
+				45.824 -82 31.4996,
+				49.1943 -91.3166 32.0789,
+				43.983 -82 28.2227,
+				-55.5812 96 -45.4514,
+				-55.851 96.4824 -45.6511,
+				-55.8882 96 -46.0271,
+				-255.872 -2500 -2069.67,
 			]
 		}
 		coordIndex [
@@ -906,8 +1144,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				10.8467 -117.065 11.4095,
-				10.8467 -117.065 11.4095,
+				-55.851 96.4824 -45.6511,
+				-55.8517 96.4845 -45.6509,
 			]
 		}
 		coordIndex [
@@ -926,8 +1164,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				10.8467 -117.065 11.4095,
-				10.8467 -117.065 11.4095,
+				49.1943 -91.3166 32.0789,
+				49.2002 -91.3304 32.0814,
 			]
 		}
 		coordIndex [
@@ -946,228 +1184,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				10.8467 -117.065 11.4095,
-				10.8467 -117.065 11.4095,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				10.8467 -117.065 11.4095,
-				10.8467 -117.065 11.4095,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				10.8467 -117.065 11.4095,
-				10.8467 -117.065 11.4095,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				10.8467 -117.065 11.4095,
-				10.8548 -117.068 11.4142,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-0.998656 -115.629 8.04787,
-				-0.99877 -115.629 8.0479,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-1.01487 -101.15 0.770157,
-				-1.01518 -101.149 0.769438,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				3.38848 -104.334 7.77083,
-				3.38848 -104.334 7.77083,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				15.3446 -104.97 33.841,
-				15.3461 -104.97 33.8417,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				5.8171 -104.85 34.3129,
-				5.8105 -104.847 34.3152,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				18.7277 -115.623 26.0553,
-				18.7591 -115.625 26.0497,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				7.78466 -118.335 25.9794,
-				7.75354 -118.46 25.9901,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0.442313 -85.1856 22.6658,
-				0.441299 -85.1857 22.6666,
+				-19.9969 99.9542 20.1864,
+				-20.0463 100.16 20.2144,
 			]
 		}
 		coordIndex [
@@ -1187,73 +1205,9 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				-0.498465 96 -25.5433,
-				-0.621331 119.663 -31.8394,
-				-0.5948 121.256 -31.7464,
-				-58.6865 143.713 -80.9685,
-				-2500 1087.48 -2149.54,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, 4, 5, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-0.5948 121.256 -31.7464,
-				-0.553619 121.334 -31.7074,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				-0.621331 119.663 -31.8394,
-				-0.621495 119.663 -31.8419,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				-7.13129 -82 6.51186,
-				-11.4796 -132 10.4825,
-				-217.417 -2500 198.532,
+				6.92921 -82 -31.8326,
+				11.1543 -132 -51.2427,
+				11.1966 -132.5 -51.4368,
 			]
 		}
 		coordIndex [
@@ -1273,226 +1227,10 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				8.34882 96 -7.62364,
-				12.6972 146 -11.5943,
-				217.417 2500 -198.532,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				0.485551 -82 13.2324,
-				0.559844 -94.5467 15.257,
-				23.0689 -120.261 -22.462,
-				26.8285 -132 -33.7456,
-				785.226 -2500 -2309.92,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, 4, 5, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				23.0689 -120.261 -22.462,
-				23.0692 -120.261 -22.4621,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0.559844 -94.5467 15.257,
-				0.534879 -94.6096 15.3146,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				-0.56845 96 -15.4916,
-				-0.864517 146 -23.5601,
-				-14.8034 2500 -403.426,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				9.80421 -82 -27.1233,
-				11.4926 -96.1209 -31.7941,
-				14.8056 -107.363 -37.6237,
-				69.6436 -91.6556 -71.7619,
-				2500 604.475 -1584.73,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, 4, 5, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				14.8056 -107.363 -37.6237,
-				14.7836 -107.463 -37.6389,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.4926 -96.1209 -31.7941,
-				11.4922 -96.1212 -31.7938,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				-11.4781 96 31.7541,
-				-17.4563 146 48.2928,
-				-298.909 2500 826.931,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				10.2918 -82 -28.4921,
-				16.5674 -132 -45.8653,
-				313.776 -2500 -868.661,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				-12.049 96 33.3566,
-				-15.8789 126.515 43.9593,
-				-7.41074 146 42.8989,
-				1015.62 2500 -85.2102,
+				-8.11224 96 37.2674,
+				-9.78988 115.853 44.9744,
+				-0.0776014 146 62.5435,
+				0.0834811 146.5 62.8349,
 			]
 		}
 		coordIndex [
@@ -1511,8 +1249,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-15.8789 126.515 43.9593,
-				-15.8957 126.521 43.9731,
+				-9.78988 115.853 44.9744,
+				-9.79385 115.855 44.9733,
 			]
 		}
 		coordIndex [
@@ -1532,284 +1270,12 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				-2.3843 -82 -26.0546,
-				-3.83815 -132 -41.9415,
-				-72.6922 -2500 -794.347,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				2.79138 96 30.5029,
-				4.24522 146 46.3899,
-				72.6922 2500 794.347,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				9.1756 -82 -8.9379,
-				10.8694 -97.1372 -10.5878,
-				11.968 -96.3651 -12.5485,
-				17.451 -100.593 -21.3333,
-				22.0757 -93.4274 -14.3229,
-				24.2508 -93.391 -7.19343,
-				11.339 -100.223 -1.28448,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, 4, 5, 6, 7, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.339 -100.223 -1.28448,
-				11.339 -100.223 -1.28448,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.339 -100.223 -1.28448,
-				11.339 -100.223 -1.28448,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.339 -100.223 -1.28448,
-				11.339 -100.223 -1.28446,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.339 -100.223 -1.28448,
-				11.3432 -100.238 -1.26082,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				24.2508 -93.391 -7.19343,
-				24.2522 -93.3904 -7.19246,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				22.0757 -93.4274 -14.3229,
-				22.0758 -93.4271 -14.3231,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				17.451 -100.593 -21.3333,
-				17.4544 -100.604 -21.3501,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				11.968 -96.3651 -12.5485,
-				11.9681 -96.3628 -12.5489,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 1 0 0
-			emissiveColor 1 0 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				10.8694 -97.1372 -10.5878,
-				10.856 -97.2883 -10.5519,
-			]
-		}
-		coordIndex [
-			0, 1, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				-10.7422 96 10.4639,
-				-16.3371 146 15.9138,
-				-279.744 2500 272.497,
-			]
-		}
-		coordIndex [
-			0, 1, 2, 3, -1
-		]
-	}
-}
-#---------- POLYLINE
-Shape {
-	appearance Appearance {
-		material Material {
-			diffuseColor 0 1 0
-			emissiveColor 0 1 0
-		}
-	}
-	geometry IndexedLineSet {
-		coord Coordinate {
-			point [
-				0 0 0,
-				10.7268 -82 -4.48531,
-				15.5657 -118.99 -6.50861,
-				16.3353 -119.319 -6.64831,
-				11.3579 -99.9721 5.46472,
-				-6.09075 -82 1.78568,
-				-2500 2486.73 -524.055,
+				2.72675 -82 18.7157,
+				4.28666 -128.911 29.4226,
+				0.621851 -131.132 32.9223,
+				0.857202 -131.764 36.0952,
+				0.857696 -132 36.3714,
+				0.858746 -132.5 36.9574,
 			]
 		}
 		coordIndex [
@@ -1828,8 +1294,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				11.3579 -99.9721 5.46472,
-				11.3585 -99.9718 5.46571,
+				0.857202 -131.764 36.0952,
+				0.857409 -131.763 36.0959,
 			]
 		}
 		coordIndex [
@@ -1848,8 +1314,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				16.3353 -119.319 -6.64831,
-				16.3925 -119.363 -6.67183,
+				0.621851 -131.132 32.9223,
+				0.608934 -131.136 32.9195,
 			]
 		}
 		coordIndex [
@@ -1868,8 +1334,8 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				15.5657 -118.99 -6.50861,
-				15.5275 -119.048 -6.50413,
+				4.28666 -128.911 29.4226,
+				4.32463 -128.967 29.4065,
 			]
 		}
 		coordIndex [
@@ -1889,15 +1355,80 @@ Shape {
 		coord Coordinate {
 			point [
 				0 0 0,
-				-12.5582 96 5.25109,
-				-13.1831 100.777 5.51236,
-				-12.3384 98.2198 3.32499,
-				-15.6683 96 -2.17813,
-				-1527.04 -911.536 -2500,
+				-3.19229 96 -21.9111,
+				-4.85494 146 -33.3231,
+				-4.87157 146.5 -33.4372,
 			]
 		}
 		coordIndex [
-			0, 1, 2, 3, 4, 5, -1
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				6.80083 -82 -15.8618,
+				10.9477 -132 -25.5337,
+				10.9892 -132.5 -25.6304,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-7.96195 96 18.57,
+				-12.1088 146 28.2418,
+				-12.1503 146.5 28.3385,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				4.56243 -82 -4.41468,
+				6.54042 -117.55 -6.3286,
+				1.78053 -132 -16.0982,
+				1.61583 -132.5 -16.4363,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, -1
 		]
 	}
 }
@@ -1912,8 +1443,56 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-12.3384 98.2198 3.32499,
-				-12.3369 98.2187 3.32518,
+				6.54042 -117.55 -6.3286,
+				6.55 -117.561 -6.31473,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+			emissiveColor 0 1 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0 0 0,
+				-5.34139 96 5.1684,
+				-5.37617 96.6252 5.20206,
+				0.210375 137.123 -66.6667,
+				36.9 120.455 -39.8364,
+				28.7812 122.424 -25.2628,
+				31.5541 121.643 -29.9047,
+				43.9889 107.421 -36.7072,
+				44.0219 110.318 -36.3516,
+				50.4229 111.42 -31.5621,
+			]
+		}
+		coordIndex [
+			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				50.4229 111.42 -31.5621,
+				50.4229 111.42 -31.5621,
 			]
 		}
 		coordIndex [
@@ -1932,13 +1511,212 @@ Shape {
 	geometry IndexedLineSet {
 		coord Coordinate {
 			point [
-				-13.1831 100.777 5.51236,
-				-13.2154 100.964 5.55415,
-				-13.2118 101.008 5.52973,
+				50.4229 111.42 -31.5621,
+				50.4229 111.42 -31.5621,
 			]
 		}
 		coordIndex [
-			0, 1, 2, -1
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				50.4229 111.42 -31.5621,
+				50.4229 111.42 -31.5621,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				50.4229 111.42 -31.5621,
+				50.4229 111.42 -31.5621,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				50.4229 111.42 -31.5621,
+				50.4306 111.418 -31.569,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				44.0219 110.318 -36.3516,
+				44.0218 110.318 -36.3516,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				43.9889 107.421 -36.7072,
+				43.9894 107.42 -36.7076,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				31.5541 121.643 -29.9047,
+				31.5541 121.643 -29.9048,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				28.7812 122.424 -25.2628,
+				28.7782 122.425 -25.2575,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				36.9 120.455 -39.8364,
+				36.9046 120.454 -39.8369,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				0.210375 137.123 -66.6667,
+				0.194988 137.157 -66.724,
+			]
+		}
+		coordIndex [
+			0, 1, -1
+		]
+	}
+}
+#---------- POLYLINE
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 1 0 0
+			emissiveColor 1 0 0
+		}
+	}
+	geometry IndexedLineSet {
+		coord Coordinate {
+			point [
+				-5.37617 96.6252 5.20206,
+				-5.38483 96.6851 5.25556,
+			]
+		}
+		coordIndex [
+			0, 1, -1
 		]
 	}
 }

@@ -54,6 +54,7 @@ DetectorConstruction::DetectorConstruction() : G4VUserDetectorConstruction()
     world = new G4Box("world", world_size / 2, world_size / 2, world_size / 2);
     log_world = new G4LogicalVolume(world, world_mat, "world_log");
     phys_world = new G4PVPlacement(0, G4ThreeVector(), log_world, "phys", 0, false, 0);
+
 }
 
 DetectorConstruction::~DetectorConstruction()
@@ -79,44 +80,47 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     G4double RadiusVolume = 10.0 * cm;
     G4double HightVolume = 0.1 * cm;
 
-
     // тонкий объем 1
     G4Tubs* thinVolumeSolid1 = new G4Tubs("ThinVolume1", 0, RadiusVolume, HightVolume / 2, 0, 360 * deg);
-    G4LogicalVolume* thinVolumeLogical1 = new G4LogicalVolume(thinVolumeSolid1, world_mat, "ThinVolume1_log");
+    thinVolumeLogical1 = new G4LogicalVolume(thinVolumeSolid1, world_mat, "ThinVolume1_log");
 
     G4VisAttributes* visAttributes1 = new G4VisAttributes(G4Colour(1.0, 1.0, 0.0));
     thinVolumeLogical1->SetVisAttributes(visAttributes1);
 
-    new G4PVPlacement(rotThin, G4ThreeVector(0, distance1 + 2.5 *cm , 0), thinVolumeLogical1, "ThinVolume1_phys", log_world, false, 0);
-
-    SensitiveDetector* sensitiveDetector1 = new SensitiveDetector("SensitiveDetector1", 1);
-    thinVolumeLogical1->SetSensitiveDetector(sensitiveDetector1);
+    new G4PVPlacement(rotThin, G4ThreeVector(0, distance1 + 2.5 * cm, 0), thinVolumeLogical1, "ThinVolume1_phys", log_world, false, 0);
 
     // тонкий объем 2
     G4Tubs* thinVolumeSolid2 = new G4Tubs("ThinVolume2", 0, RadiusVolume, HightVolume / 2, 0, 360 * deg);
-    G4LogicalVolume* thinVolumeLogical2 = new G4LogicalVolume(thinVolumeSolid2, world_mat, "ThinVolume2_log");
+    thinVolumeLogical2 = new G4LogicalVolume(thinVolumeSolid2, world_mat, "ThinVolume2_log");
 
     G4VisAttributes* visAttributes2 = new G4VisAttributes(G4Colour(1.0, 1.0, 0.0));
     thinVolumeLogical2->SetVisAttributes(visAttributes2);
 
-    new G4PVPlacement(rotThin, G4ThreeVector(0, -distance2 - 2.5*cm , 0), thinVolumeLogical2, "ThinVolume2_phys", log_world, false, 0);
-
-    SensitiveDetector* sensitiveDetector2 = new SensitiveDetector("SensitiveDetector2", 2);
-    thinVolumeLogical2->SetSensitiveDetector(sensitiveDetector2);
+    new G4PVPlacement(rotThin, G4ThreeVector(0, -distance2 - 2.5 * cm, 0), thinVolumeLogical2, "ThinVolume2_phys", log_world, false, 0);
 
     log_world->SetVisAttributes(G4VisAttributes::GetInvisible());
 
     return phys_world;
 }
 
-
 void DetectorConstruction::ConstructSDandField()
 {
+    G4SDManager* SDman = G4SDManager::GetSDMpointer();
+
+    //чувствительные детекторы
+    sensitiveDetector1 = new SensitiveDetector("SensitiveDetector1", 1);
+    SDman->AddNewDetector(sensitiveDetector1);
+    thinVolumeLogical1->SetSensitiveDetector(sensitiveDetector1);
+
+    sensitiveDetector2 = new SensitiveDetector("SensitiveDetector2", 2);
+    SDman->AddNewDetector(sensitiveDetector2);
+    thinVolumeLogical2->SetSensitiveDetector(sensitiveDetector2);
 
 }
 
 void DetectorConstruction::ConstructQuartzRadiator(const G4String &name)
 {
+
     // материал
     G4Material* quartz = nist->FindOrBuildMaterial("G4_SILICON_DIOXIDE");
 
@@ -133,8 +137,6 @@ void DetectorConstruction::ConstructQuartzRadiator(const G4String &name)
     G4VisAttributes* radiatorVisAttributes = new G4VisAttributes(G4Colour(0.8, 0.8, 0.8));
     radiatorVisAttributes->SetVisibility(true);
     radiatorLogical->SetVisAttributes(radiatorVisAttributes);
-
-
 
     // поворот радиатора
     G4RotationMatrix* rot = new G4RotationMatrix();

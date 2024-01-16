@@ -8,50 +8,53 @@
 #include <G4PrimaryParticle.hh>
 #include <G4SystemOfUnits.hh>
 #include <G4RunManager.hh>
+#include <iomanip>
+#include <sstream>
 
 using namespace std;
 
 SensitiveDetector::SensitiveDetector(G4String name, G4int id) : G4VSensitiveDetector(name), detectorID(id) 
 {
-    hitsFile.open("hits.txt", ios_base::out);
-    //  файл для записи
 
 }
 
 G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) 
 {
-    // информация о частице и её треке
+    // информация о частице
     G4Track* track = step->GetTrack();
-    G4ParticleDefinition* particle = track->GetDefinition();
-
    
     G4ThreeVector position = step->GetPreStepPoint()->GetPosition();
-
-
-    G4double gammaEnergy = track->GetKineticEnergy();
-
-
+    G4double energy = track->GetKineticEnergy();
     G4double globalTime = track->GetGlobalTime();
 
-    // запись в файл
-    hitsFile << "DetectorID: " << detectorID << "\t";
+    // потоковый буфер
+    ostringstream dataStream;
+    dataStream << "DetectorID: " << left << setw(5) << setfill(' ') << detectorID << "    ";
+    dataStream << "Time: " << left << fixed << "    " << setprecision(15) << globalTime / second << " s    ";
+    dataStream << "Energy: " << left << fixed << setw(15) << setprecision(4) << energy / keV << " keV    ";
+    dataStream << "Position: " << left << fixed << position / mm << " mm\n";
 
-    hitsFile << "Time: " << globalTime / second << " s\t Particle: " << particle->GetParticleName()<< "\t EnergyGamma: " << gammaEnergy / keV <<"keV\t Position: " << position / mm << " mm\n"   << endl;
+    // запись из п б в файл
+    ofstream hitsFile("hits.txt", ios_base::app);
+    if (hitsFile.is_open()) {
+        hitsFile << dataStream.str();
+        hitsFile.close();
+    } else {
+        cerr << "Error opening file!" << endl;
+    }
 
     track->SetTrackStatus(fStopAndKill);
 
     return true;
 }
 
-
-//геттер
+// геттер
 G4int SensitiveDetector::GetDetectorID() const
 {
     return detectorID;
 }
 
+SensitiveDetector::~SensitiveDetector() 
+{
 
-SensitiveDetector::~SensitiveDetector() {
- 
-  hitsFile.close();
 }

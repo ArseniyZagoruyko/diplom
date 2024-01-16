@@ -1,16 +1,17 @@
-DetectorID: 1	Time: 6.42048e-10 s	 Particle: gamma	 EnergyGamma: 168.444keV	 Position: (-13.4249,146,-28.7186) mm
-
-DetectorID: 1	Time: 5.12835e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (22.3861,146,40.7312) mm
-
-DetectorID: 1	Time: 5.16035e-10 s	 Particle: gamma	 EnergyGamma: 343.983keV	 Position: (-29.1434,146,23.5256) mm
-
-DetectorID: 1	Time: 5.14513e-10 s	 Particle: gamma	 EnergyGamma: 409.138keV	 Position: (-12.8792,146,-8.35932) mm
-
-DetectorID: 1	Time: 5.91368e-10 s	 Particle: gamma	 EnergyGamma: 371.248keV	 Position: (36.0813,146,63.8265) mm
-
-DetectorID: 1	Time: 5.40689e-10 s	 Particle: gamma	 EnergyGamma: 511keV	 Position: (-31.7794,146,61.3976) mm
-
-DetectorID: 2	Time: 4.9781e-10 s	 Particle: gamma	 EnergyGamma: 332.254keV	 Position: (30.5458,-132,-44.7689) mm
-
-DetectorID: 2	Time: 4.51753e-10 s	 Particle: gamma	 EnergyGamma: 478.863keV	 Position: (3.01376,-132,23.9056) mm
-
+DetectorID: 2        Time:     0.000000000457771 s    Energy: 511.0000        keV    Position: (-20.8450,-132.0000,-28.8683) mm
+DetectorID: 1        Time:     0.000000000506139 s    Energy: 511.0000        keV    Position: (23.0559,146.0000,31.9301) mm
+DetectorID: 2        Time:     0.000000000458248 s    Energy: 511.0000        keV    Position: (30.5173,-132.0000,19.3811) mm
+DetectorID: 1        Time:     0.000000000576659 s    Energy: 111.6258        keV    Position: (-25.7900,146.0000,-43.9280) mm
+DetectorID: 2        Time:     0.000000000575729 s    Energy: 140.9774        keV    Position: (22.1454,-132.0000,15.7781) mm
+DetectorID: 1        Time:     0.000000000517423 s    Energy: 427.8842        keV    Position: (-38.0370,146.0000,20.4018) mm
+DetectorID: 2        Time:     0.000000000450204 s    Energy: 511.0000        keV    Position: (10.5709,-132.0000,23.3097) mm
+DetectorID: 1        Time:     0.000000000497773 s    Energy: 511.0000        keV    Position: (-11.6921,146.0000,-25.7820) mm
+DetectorID: 2        Time:     0.000000000478554 s    Energy: 391.5224        keV    Position: (40.5059,-132.0000,6.4773) mm
+DetectorID: 1        Time:     0.000000000504894 s    Energy: 463.6469        keV    Position: (-31.5477,146.0000,-5.8409) mm
+DetectorID: 2        Time:     0.000000000475576 s    Energy: 511.0000        keV    Position: (11.1543,-132.0000,-51.2427) mm
+DetectorID: 1        Time:     0.000000000538644 s    Energy: 476.4458        keV    Position: (-0.0776,146.0000,62.5435) mm
+DetectorID: 2        Time:     0.000000000474345 s    Energy: 259.4031        keV    Position: (0.8577,-132.0000,36.3714) mm
+DetectorID: 1        Time:     0.000000000501501 s    Energy: 511.0000        keV    Position: (-4.8549,146.0000,-33.3231) mm
+DetectorID: 2        Time:     0.000000000451655 s    Energy: 511.0000        keV    Position: (10.9477,-132.0000,-25.5337) mm
+DetectorID: 1        Time:     0.000000000499377 s    Energy: 511.0000        keV    Position: (-12.1088,146.0000,28.2418) mm
+DetectorID: 2        Time:     0.000000000455675 s    Energy: 429.8517        keV    Position: (1.7805,-132.0000,-16.0982) mm

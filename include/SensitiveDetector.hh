@@ -1,5 +1,10 @@
+#ifndef SENSITIVEDETECTOR_HH
+#define SENSITIVEDETECTOR_HH
+
 #include <G4VSensitiveDetector.hh>
 #include <fstream>
+
+class G4Step;
 
 class SensitiveDetector : public G4VSensitiveDetector 
 {
@@ -19,6 +24,8 @@ private:
 // индификатор чувств детектора 
     G4int detectorID;
 
-
+    
     std::ofstream hitsFile; 
 };
+
+#endif

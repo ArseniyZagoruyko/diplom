@@ -351,16 +351,71 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4AffineTransform.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4AffineTransform.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4BooleanSolid.icc \
- /home/zas/CERN/geant4-install/include/Geant4/FTFP_BERT.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
- /home/zas/CERN/geant4-install/include/Geant4/rundefs.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4ParticleTable.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SDManager.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SDStructure.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VHit.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Step.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4StepPoint.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Allocator.hh \
+ /usr/include/c++/11/cstddef \
+ /home/zas/CERN/geant4-install/include/Geant4/G4AllocatorPool.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SteppingControl.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4StepStatus.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHandle.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VTouchable.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VTouchable.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4LogicalVolume.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4StepPoint.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4TrackVector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Profiler.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Profiler.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/PTL/Globals.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/PTL/Types.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/PTL/Utility.hh \
+ /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
+ /usr/include/c++/11/bits/stl_multiset.h \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Step.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Track.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/trkdefs.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4DynamicParticle.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ParticleDefinition.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4PDefManager.hh \
  /usr/include/c++/11/stdlib.h \
  /home/zas/CERN/geant4-install/include/Geant4/pwdefs.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4LorentzVector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4ParticleMomentum.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4DynamicParticle.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4TrackStatus.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4Track.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VHitsCollection.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistory.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistory.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevel.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevel.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistory.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistory.icc \
+ /home/zas/CERN/geant4-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VSDFilter.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4HCtable.hh \
+ /home/zas/CERN/SCINT/include/SensitiveDetector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/FTFP_BERT.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/rundefs.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \
+ /home/zas/CERN/geant4-install/include/Geant4/G4ParticleTable.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ParticleTableIterator.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ParticleTable.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4PhysicsListHelper.hh \
@@ -418,9 +473,7 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /usr/include/c++/11/bits/regex_compiler.tcc \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
- /usr/include/c++/11/bits/regex_executor.tcc /usr/include/c++/11/set \
- /usr/include/c++/11/bits/stl_set.h \
- /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/list \
+ /usr/include/c++/11/bits/regex_executor.tcc /usr/include/c++/11/list \
  /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
  /home/zas/CERN/geant4-install/include/Geant4/G4VUPLSplitter.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VUserPhysicsList.hh \
@@ -428,7 +481,6 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4MaterialCutsCouple.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ProductionCuts.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4MCCIndexConversionTable.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
  /home/zas/CERN/geant4-install/include/Geant4/LBE.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4UImanager.hh \
  /home/zas/CERN/geant4-install/include/Geant4/icomsdefs.hh \
@@ -496,23 +548,13 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4RunManager.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4Event.hh \
  /home/zas/CERN/geant4-install/include/Geant4/evtdefs.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Allocator.hh \
- /usr/include/c++/11/cstddef \
- /home/zas/CERN/geant4-install/include/Geant4/G4AllocatorPool.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4PrimaryVertex.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4PrimaryParticle.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4HCofThisEvent.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VHitsCollection.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4DCofThisEvent.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VDigiCollection.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4TrajectoryContainer.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VTrajectory.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VUserEventInformation.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Profiler.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Profiler.icc \
- /home/zas/CERN/geant4-install/include/Geant4/PTL/Globals.hh \
- /home/zas/CERN/geant4-install/include/Geant4/PTL/Types.hh \
- /home/zas/CERN/geant4-install/include/Geant4/PTL/Utility.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4EventManager.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4StackManager.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4UserStackingAction.hh \
@@ -520,28 +562,6 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4StackedTrack.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4TrackStack.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4SmartTrackStack.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Track.hh \
- /home/zas/CERN/geant4-install/include/Geant4/trkdefs.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4LogicalVolume.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4DynamicParticle.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4LorentzVector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4ParticleMomentum.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4ElectronOccupancy.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4DynamicParticle.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4TrackStatus.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHandle.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VTouchable.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VTouchable.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VUserTrackInformation.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Track.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4Step.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4StepPoint.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4SteppingControl.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4StepStatus.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4StepPoint.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4TrackVector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4Step.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4PrimaryTransformer.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4TrackingManager.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4SteppingManager.hh \
@@ -552,15 +572,6 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4GRSSolid.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4GRSSolid.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistoryHandle.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistory.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistory.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevel.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationLevel.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4NavigationHistory.icc \
- /home/zas/CERN/geant4-install/include/Geant4/G4TouchableHistory.icc \
  /home/zas/CERN/geant4-install/include/Geant4/G4NormalNavigation.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4AuxiliaryNavServices.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4AuxiliaryNavServices.icc \
@@ -688,7 +699,6 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4HitFilterFactories.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VFilter.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VModelFactory.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VHit.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4DigiFilterFactories.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4VDigi.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4TrajectoryFilterFactories.hh \
@@ -707,11 +717,6 @@ CMakeFiles/SCINT.dir/SCINT.cc.o: /home/zas/CERN/SCINT/SCINT.cc \
  /home/zas/CERN/geant4-install/include/Geant4/G4OpenGLStoredX.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4ToolsSGX11GLES.hh \
  /home/zas/CERN/SCINT/include/SensitiveDetector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VReadOutGeometry.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4SensitiveVolumeList.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4CollectionNameVector.hh \
- /home/zas/CERN/geant4-install/include/Geant4/G4VSDFilter.hh \
  /home/zas/CERN/geant4-install/include/Geant4/QGSP_BIC.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4OpticalPhysics.hh \
  /home/zas/CERN/geant4-install/include/Geant4/G4OpticalParameters.hh \
