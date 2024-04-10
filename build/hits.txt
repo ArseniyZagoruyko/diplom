@@ -1,17 +1,37 @@
-DetectorID: 2        Time:     0.000000000457771 s    Energy: 511.0000        keV    Position: (-20.8450,-132.0000,-28.8683) mm
-DetectorID: 1        Time:     0.000000000506139 s    Energy: 511.0000        keV    Position: (23.0559,146.0000,31.9301) mm
-DetectorID: 2        Time:     0.000000000458248 s    Energy: 511.0000        keV    Position: (30.5173,-132.0000,19.3811) mm
-DetectorID: 1        Time:     0.000000000576659 s    Energy: 111.6258        keV    Position: (-25.7900,146.0000,-43.9280) mm
-DetectorID: 2        Time:     0.000000000575729 s    Energy: 140.9774        keV    Position: (22.1454,-132.0000,15.7781) mm
-DetectorID: 1        Time:     0.000000000517423 s    Energy: 427.8842        keV    Position: (-38.0370,146.0000,20.4018) mm
-DetectorID: 2        Time:     0.000000000450204 s    Energy: 511.0000        keV    Position: (10.5709,-132.0000,23.3097) mm
-DetectorID: 1        Time:     0.000000000497773 s    Energy: 511.0000        keV    Position: (-11.6921,146.0000,-25.7820) mm
-DetectorID: 2        Time:     0.000000000478554 s    Energy: 391.5224        keV    Position: (40.5059,-132.0000,6.4773) mm
-DetectorID: 1        Time:     0.000000000504894 s    Energy: 463.6469        keV    Position: (-31.5477,146.0000,-5.8409) mm
-DetectorID: 2        Time:     0.000000000475576 s    Energy: 511.0000        keV    Position: (11.1543,-132.0000,-51.2427) mm
-DetectorID: 1        Time:     0.000000000538644 s    Energy: 476.4458        keV    Position: (-0.0776,146.0000,62.5435) mm
-DetectorID: 2        Time:     0.000000000474345 s    Energy: 259.4031        keV    Position: (0.8577,-132.0000,36.3714) mm
-DetectorID: 1        Time:     0.000000000501501 s    Energy: 511.0000        keV    Position: (-4.8549,146.0000,-33.3231) mm
-DetectorID: 2        Time:     0.000000000451655 s    Energy: 511.0000        keV    Position: (10.9477,-132.0000,-25.5337) mm
-DetectorID: 1        Time:     0.000000000499377 s    Energy: 511.0000        keV    Position: (-12.1088,146.0000,28.2418) mm
-DetectorID: 2        Time:     0.000000000455675 s    Energy: 429.8517        keV    Position: (1.7805,-132.0000,-16.0982) mm
+Event:     9259    DetectorID: 1        Time:     615.710330912929066 s    Energy: 436.4567        keV
+Event:     31590    DetectorID: 2        Time:     2118.921328670929597 s    Energy: 300.6572        keV
+Event:     35597    DetectorID: 1        Time:     13516.952101298196794 s    Energy: 354.7472        keV
+Event:     57871    DetectorID: 2        Time:     1678.628616377526896 s    Energy: 395.7549        keV
+Event:     117085    DetectorID: 1        Time:     13921.024376529525398 s    Energy: 326.7815        keV
+Event:     136024    DetectorID: 1        Time:     8299.293725249135605 s    Energy: 332.4161        keV
+Event:     182607    DetectorID: 2        Time:     1354.505641803817298 s    Energy: 337.3516        keV
+Event:     197055    DetectorID: 2        Time:     16699.576930508359510 s    Energy: 229.3897        keV
+Event:     213467    DetectorID: 2        Time:     23550.398167993564130 s    Energy: 131.7874        keV
+Event:     270412    DetectorID: 1        Time:     1286.155308494996234 s    Energy: 357.3382        keV
+Event:     285057    DetectorID: 1        Time:     4396.840692341975227 s    Energy: 252.0970        keV
+Event:     319242    DetectorID: 2        Time:     3481.042306503970394 s    Energy: 273.7110        keV
+Event:     374521    DetectorID: 1        Time:     1492.946496173190781 s    Energy: 510.9989        keV
+Event:     400959    DetectorID: 2        Time:     1998.096634931580638 s    Energy: 247.0310        keV
+Event:     450482    DetectorID: 1        Time:     10734.151415232789077 s    Energy: 391.4339        keV
+Event:     458389    DetectorID: 1        Time:     6372.831722090722906 s    Energy: 369.4604        keV
+Event:     509062    DetectorID: 1        Time:     11461.053409626105349 s    Energy: 404.8262        keV
+Event:     539447    DetectorID: 1        Time:     8676.668697476181478 s    Energy: 221.3675        keV
+Event:     543221    DetectorID: 2        Time:     7540.054300783406688 s    Energy: 173.5463        keV
+Event:     545106    DetectorID: 2        Time:     10460.411288975979915 s    Energy: 510.9989        keV
+Event:     549230    DetectorID: 2        Time:     1084.308410956059788 s    Energy: 295.8481        keV
+Event:     576937    DetectorID: 1        Time:     27037.254731286408060 s    Energy: 246.9951        keV
+Event:     584277    DetectorID: 2        Time:     3501.405176322862644 s    Energy: 382.9948        keV
+Event:     639172    DetectorID: 1        Time:     7534.557906329568141 s    Energy: 266.9655        keV
+Event:     663054    DetectorID: 1        Time:     6084.282211785023719 s    Energy: 322.5776        keV
+Event:     742238    DetectorID: 1        Time:     2848.367118011626189 s    Energy: 356.3547        keV
+Event:     767053    DetectorID: 2        Time:     6176.904093516586727 s    Energy: 626.3917        keV
+Event:     769548    DetectorID: 2        Time:     7163.950915435474599 s    Energy: 214.6934        keV
+Event:     799302    DetectorID: 2        Time:     40762.069531615416054 s    Energy: 185.4641        keV
+Event:     802122    DetectorID: 2        Time:     13125.290777610993246 s    Energy: 393.8059        keV
+Event:     872846    DetectorID: 1        Time:     2686.723654827116661 s    Energy: 389.6073        keV
+Event:     873570    DetectorID: 2        Time:     453.273371083078416 s    Energy: 401.2365        keV
+Event:     913152    DetectorID: 1        Time:     3730.807816819965410 s    Energy: 340.7647        keV
+Event:     915457    DetectorID: 2        Time:     7296.103085580766674 s    Energy: 354.4856        keV
+Event:     919411    DetectorID: 1        Time:     12842.718266344552831 s    Energy: 311.5231        keV
+Event:     948859    DetectorID: 1        Time:     1501.589094305548315 s    Energy: 428.6439        keV
+Event:     978088    DetectorID: 2        Time:     1672.286875506268643 s    Energy: 263.3994        keV

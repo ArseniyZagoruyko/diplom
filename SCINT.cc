@@ -89,7 +89,7 @@ int main(int argc, char** argv)
     
     UImanager->ApplyCommand("/run/initialize");
 
-    bool visual = true;
+    bool visual = false;
     
     if (visual == true){
 
@@ -98,11 +98,6 @@ int main(int argc, char** argv)
         UImanager->ApplyCommand("/vis/scene/create");
         UImanager->ApplyCommand("/vis/open VRML2FILE");
         UImanager->ApplyCommand("/vis/drawVolume");
-
-        // UImanager->ApplyCommand("/vis/drawVolume worlds");
-        // UImanager->ApplyCommand("/vis/filtering/trajectories/create/particleFilter");
-        // UImanager->ApplyCommand("/vis/filtering/trajectories/particleFilter-0/add neutron");
-
         UImanager->ApplyCommand("/vis/viewer/set/viewpointThetaPhi 90. 90");
         UImanager->ApplyCommand("/vis/scene/add/trajectories");
         UImanager->ApplyCommand("/vis/scene/add/hits");
@@ -118,7 +113,7 @@ int main(int argc, char** argv)
     G4Random::setTheSeed( seed1, par1);
 
 
-    int number = 10+0*G4UniformRand();
+    int number = (1000000)+0*G4UniformRand();
     UImanager->ApplyCommand("/run/beamOn " + std::to_string(number));
     
     delete ui;

@@ -20,18 +20,30 @@ private:
 
     G4NistManager* nist;
     G4Material* world_mat;
+    G4Material* water_mat;
 
     G4double distance1;
     G4double distance2;
 
+    G4double radiatorThin;
+
     virtual G4VPhysicalVolume* Construct();
     virtual void ConstructSDandField();
 
+    void ConstructWaterPhantom();
+
+    void ConstructSphere();
+    
+
     SensitiveDetector* sensitiveDetector1;
     SensitiveDetector* sensitiveDetector2;
+    SensitiveDetector* sensitiveDetector3;
 
     G4LogicalVolume* thinVolumeLogical1;
     G4LogicalVolume* thinVolumeLogical2;
+    G4LogicalVolume* log_Sphere;
+
+
 
     // G4SDManager для чувствительных детекторов 
     G4SDManager* SDman;

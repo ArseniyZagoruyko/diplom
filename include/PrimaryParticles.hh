@@ -5,18 +5,14 @@
 class PrimaryParticles : public G4VUserPrimaryGeneratorAction{
 public:
 
-	PrimaryParticles();
-	~PrimaryParticles();
-	
-    int ac = 0;
-    int n = 1;
-    int i1 = 1;
+    PrimaryParticles();
+    ~PrimaryParticles();
+    
+    G4double En = 0;
 
-    double En = 0; 
-
-	virtual void GeneratePrimaries(G4Event* event);
+    virtual void GeneratePrimaries(G4Event* event);
 
 private:
 
-	G4ParticleGun* gun;
+    G4ParticleGun* gun;
 };

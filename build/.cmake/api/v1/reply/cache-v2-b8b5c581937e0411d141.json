@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "22"
+			"value" : "25"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -550,6 +550,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/zas/CERN/SCINT/build/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -979,7 +991,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.22"
+			"value" : "/usr/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1259,7 +1271,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/x86_64-linux-gnu/libexpat.so][/usr/include][v2.4.7(2.4.7)]"
+			"value" : "[/usr/lib/x86_64-linux-gnu/libexpat.so][/usr/include][v2.5.0(2.5.0)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Geant4",
@@ -1271,7 +1283,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/home/zas/CERN/geant4-install/lib/cmake/Geant4/Geant4Config.cmake][v11.1.2()]"
+			"value" : "[/home/zas/CERN/geant4-install/lib/cmake/Geant4/Geant4Config.cmake][v11.2.1()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
@@ -3578,6 +3590,70 @@
 			"value" : "X11_xcb_icccm_LIB-NOTFOUND"
 		},
 		{
+			"name" : "X11_xcb_keysyms_INCLUDE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "X11_xcb_keysyms_INCLUDE_PATH-NOTFOUND"
+		},
+		{
+			"name" : "X11_xcb_keysyms_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "X11_xcb_keysyms_LIB-NOTFOUND"
+		},
+		{
+			"name" : "X11_xcb_randr_INCLUDE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "X11_xcb_randr_INCLUDE_PATH-NOTFOUND"
+		},
+		{
+			"name" : "X11_xcb_randr_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "X11_xcb_randr_LIB-NOTFOUND"
+		},
+		{
 			"name" : "X11_xcb_util_INCLUDE_PATH",
 			"properties" : 
 			[
@@ -3656,6 +3732,38 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "X11_xcb_xkb_LIB-NOTFOUND"
+		},
+		{
+			"name" : "X11_xcb_xtest_INCLUDE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "X11_xcb_xtest_INCLUDE_PATH-NOTFOUND"
+		},
+		{
+			"name" : "X11_xcb_xtest_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "X11_xcb_xtest_LIB-NOTFOUND"
 		},
 		{
 			"name" : "X11_xkbcommon_INCLUDE_PATH",
@@ -3752,6 +3860,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libxkbfile.so"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "__pkg_config_arguments_PC_EXPAT",
