@@ -117,15 +117,15 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
     G4MaterialPropertiesTable* myMPT2 = new G4MaterialPropertiesTable();
     myMPT2->AddProperty("RINDEX", photonEnergy_air, refractiveIndex_air, nEntries_air);
-
     air->SetMaterialPropertiesTable(myMPT2);
-    distance1 = 13* cm;
-    distance2 = 13 * cm;
+
+    distance1 = 30* cm;
+    distance2 = 30 * cm;
 
     ConstructQuartzRadiator("QuartzRadiator1");
     ConstructQuartzRadiator("QuartzRadiator2");
     
-    //ConstructSphere();
+    ConstructSphere();
     
     ConstructWaterPhantom();
 
@@ -165,7 +165,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
 void DetectorConstruction::ConstructSphere()
 {
-    G4Sphere* Sphere = new G4Sphere("sphere",4.9*cm,5*cm,0.0,2.0*M_PI,0.0,M_PI);
+    G4Sphere* Sphere = new G4Sphere("sphere",1.9*cm,2*cm,0.0,2.0*M_PI,0.0,M_PI);
 
     log_Sphere = new G4LogicalVolume(Sphere, world_mat , "log_Sphere");
 
@@ -315,19 +315,19 @@ void DetectorConstruction::ConstructQuartzRadiator(const G4String &name)
 
     // LG_MPT -> AddConstProperty("SCINTILLATIONYIELD1",1.0);
 
- //  LG->SetMaterialPropertiesTable(LG_MPT);// применение свойст сцинтиллятора к материалу
+    LG->SetMaterialPropertiesTable(LG_MPT);// применение свойст сцинтиллятора к материалу
 
 
 
     // размеры
-    radiatorThin = 25 * cm;
+    radiatorThin = 5 * cm;
     G4double radiatorLength = 5.0 * cm;
     G4double radiatorHeight = 10.0 * cm;
 
     // радиатор
     G4Box* radiatorSolid = new G4Box(name, radiatorHeight/2, radiatorThin / 2, radiatorLength/2 );
 
-    G4LogicalVolume* radiatorLogical = new G4LogicalVolume(radiatorSolid, CsI , name + "_log");
+    G4LogicalVolume* radiatorLogical = new G4LogicalVolume(radiatorSolid, LG , name + "_log");
 
     G4VisAttributes* radiatorVisAttributes = new G4VisAttributes(G4Colour(0.8, 0.8, 0.8));
     radiatorVisAttributes->SetVisibility(true);
@@ -348,13 +348,13 @@ void DetectorConstruction::ConstructQuartzRadiator(const G4String &name)
 
 
 
-    G4OpticalSurface* opAirSurface = new G4OpticalSurface("AirSurface");//создание новой поверхности (для сцинтиллятора в данном случае)
+    G4OpticalSurface* opAirSurface = new G4OpticalSurface("AirSurface");//создание новой поверхности 
     opAirSurface->SetType(dielectric_dielectric); // тип поверхности (диэлектрик-диэлектик (вохдух-сцинтиллятор))
     opAirSurface->SetFinish(ground); // шероховатость
     opAirSurface->SetModel(unified);
     // opAirSurface->SetSigmaAlpha(1);
 
     G4LogicalSkinSurface* airSurface1 =
-     new G4LogicalSkinSurface("AirSurface1", radiatorLogical, opAirSurface); //создание самой поверхности.
+    new G4LogicalSkinSurface("AirSurface1", radiatorLogical, opAirSurface); //создание 
  
 }

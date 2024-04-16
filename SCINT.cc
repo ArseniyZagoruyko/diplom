@@ -89,7 +89,7 @@ int main(int argc, char** argv)
     
     UImanager->ApplyCommand("/run/initialize");
 
-    bool visual = false;
+    bool visual = true;
     
     if (visual == true){
 
@@ -107,13 +107,8 @@ int main(int argc, char** argv)
         
     }
 
-    G4int seed1 = clock(  );
-    G4double a1 = -(1000000)+2*1000000*G4UniformRand();
-    int par1 = G4Threading::G4GetThreadId() + a1;
-    G4Random::setTheSeed( seed1, par1);
 
-
-    int number = (1000000)+0*G4UniformRand();
+    int number = (100000)+0*G4UniformRand();
     UImanager->ApplyCommand("/run/beamOn " + std::to_string(number));
     
     delete ui;
