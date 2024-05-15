@@ -13,7 +13,8 @@
 
 using namespace std;
 
-PrimaryParticles::PrimaryParticles() {
+PrimaryParticles::PrimaryParticles() 
+{
     gun = new G4ParticleGun(1);
     gun->SetParticleEnergy(511 * keV);
 
@@ -69,15 +70,19 @@ void PrimaryParticles::GeneratePrimaries(G4Event* event)
   Posz += r * Shiftz;
 
   
-//  gun->SetParticleMomentumDirection(G4ThreeVector(Dirx,Diry,Dirz));
+
+
   gun->SetParticleMomentumDirection(G4ThreeVector(0.0,1.0,0.0));
+  // gun->SetParticlePosition(G4ThreeVector(1*cm, 0 , 1*cm));
+
   gun->SetParticlePosition(G4ThreeVector(Posx, Posy, Posz));
+  // gun->SetParticleMomentumDirection(G4ThreeVector(Dirx,Diry,Dirz));
 
   gun->GeneratePrimaryVertex(event);
 
 
-  // направления для второй частицы
-//  gun->SetParticleMomentumDirection(G4ThreeVector(-Dirx,-Diry,-Dirz));
-  gun->SetParticleMomentumDirection(G4ThreeVector(0.0,-1.0,0.0));
-  gun->GeneratePrimaryVertex(event);
+  // направление для второй частицы
+  // gun->SetParticleMomentumDirection(G4ThreeVector(-Dirx,-Diry,-Dirz));
+  // gun->SetParticleMomentumDirection(G4ThreeVector(0.0,-1.0,0.0));
+  // gun->GeneratePrimaryVertex(event);
 }

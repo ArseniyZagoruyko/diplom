@@ -10,6 +10,8 @@
 #include <G4SDManager.hh>
 #include "SensitiveDetector.hh"
 
+class SteppingAction;
+
 
 class DetectorConstruction : public G4VUserDetectorConstruction
 {
@@ -26,6 +28,8 @@ private:
     G4double distance2;
 
     G4double radiatorThin;
+    G4double radiatorLength;
+    G4double radiatorHeight;
 
     virtual G4VPhysicalVolume* Construct();
     virtual void ConstructSDandField();
@@ -49,7 +53,7 @@ private:
     G4SDManager* SDman;
 
 public:
-    void ConstructQuartzRadiator(const G4String &name);
+    void ConstructLGRadiator();
 
     DetectorConstruction();
     ~DetectorConstruction();

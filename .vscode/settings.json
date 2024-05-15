@@ -1,6 +1,7 @@
 {
     "cmake.sourceDirectory": "/home/zas/CERN/SCINT",
     "files.associations": {
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "*.icc": "cpp"
     }
 }

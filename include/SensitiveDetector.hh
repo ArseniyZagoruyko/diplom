@@ -28,4 +28,5 @@ private:
     std::ofstream hitsFile; 
 };
 
+
 #endif

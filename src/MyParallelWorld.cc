@@ -36,10 +36,7 @@ void MyParallelWorld::ConstructSD()
 {
 
 
-    // G4SDManager* SDman = G4SDManager::GetSDMpointer();
-    // SensitiveDetector1 *detector = new SensitiveDetector1("detector");
-    // SDman->AddNewDetector(detector);
-    // SetSensitiveDetector("log_det0", detector);
+
 
 
 }
