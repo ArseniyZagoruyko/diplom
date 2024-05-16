@@ -60,13 +60,13 @@ int main(int argc, char** argv)
 	run->SetUserInitialization(act);
 
 
-	// G4VisExecutive *vis = new G4VisExecutive;
-	// vis->Initialize();
+	G4VisExecutive *vis = new G4VisExecutive;
+	vis->Initialize();
     run->Initialize();
 
 
 	G4UImanager* UImanager = G4UImanager::GetUIpointer();
-    UImanager->ApplyCommand("/run/setCut 0.1 mm");
+    UImanager->ApplyCommand("/run/setCut 0.01 mm");
     UImanager->ApplyCommand("/run/setCutForRegion RadiatorRegion 0.001 mm");
     run->Initialize();
 
@@ -85,9 +85,9 @@ int main(int argc, char** argv)
     if (lowelectro == true){
 
         UImanager->ApplyCommand("/process/em/fluo true");
-        // UImanager->ApplyCommand("/process/em/auger true");
-        // UImanager->ApplyCommand("/process/em/augerCascade true");
-        // UImanager->ApplyCommand("/process/em/pixe true");
+        UImanager->ApplyCommand("/process/em/auger true");
+        UImanager->ApplyCommand("/process/em/augerCascade true");
+        UImanager->ApplyCommand("/process/em/pixe true");
         // UImanager->ApplyCommand("/process/em/pixeElecXSmodel Penelope");
     
     }
@@ -117,7 +117,7 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/run/beamOn " + std::to_string(number));
     
     delete ui;
-    // delete vis;
+    delete vis;
     delete run;;
 
 }

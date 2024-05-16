@@ -21,7 +21,7 @@ SensitiveDetector::SensitiveDetector(G4String name, G4int id) : G4VSensitiveDete
 G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) 
 {
 //     // информация о частице
-//     G4Track* track = step->GetTrack();
+    G4Track* track = step->GetTrack();
 //     G4String particleName =  step->GetTrack()->GetDynamicParticle()->GetDefinition()->GetParticleName();
 //     if (particleName == "gamma" )
 //     {
@@ -45,7 +45,7 @@ G4bool SensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*)
 //             cerr << "Error opening file!" << endl;
 //         }
 //     }
-// //    track->SetTrackStatus(fStopAndKill);
+    track->SetTrackStatus(fStopAndKill);
     return true;
 }
 

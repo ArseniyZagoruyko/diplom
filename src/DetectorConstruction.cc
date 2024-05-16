@@ -51,7 +51,7 @@ G4LogicalVolume* radiatorLogical;
 DetectorConstruction::DetectorConstruction() : G4VUserDetectorConstruction()
 {
 
-    G4double world_size = 5 * m;
+    G4double world_size = 50 * m;
 
     nist = G4NistManager::Instance();
 
@@ -65,7 +65,7 @@ DetectorConstruction::DetectorConstruction() : G4VUserDetectorConstruction()
     G4Element* N = new G4Element("Nitrogen", "N", z=7 , a=14.01*g/mole);
     G4Element* O = new G4Element("Oxygen"  , "O", z=8 , a=16.00*g/mole);
 
-    G4Material* air = new G4Material("Air", density=0.0000000000000000012*g/cm3, nelements=2);
+    G4Material* air = new G4Material("Air", density=0.0000000000000000000012*g/cm3, nelements=2);
     air->AddElement(N, 70.*perCent);
     air->AddElement(O, 30.*perCent);
     G4double photonEnergy_air[] = { 1.90744615*eV, 1.95409565*eV, 2.00308412*eV, 2.054592*eV,   2.10881877*eV, 2.16598554*eV,
@@ -111,7 +111,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     
     //ConstructSphere();
     
-    // ConstructWaterPhantom();
+    ConstructWaterPhantom();
 
     // поворот для тонких объемов
     G4RotationMatrix* rotThin = new G4RotationMatrix();
@@ -352,16 +352,23 @@ void DetectorConstruction::ConstructLGRadiator()
     
 
 
-
     // размеры
     radiatorThin = 1 * cm;
     radiatorLength = 1.9 * cm;
     radiatorHeight = 1.9 * cm;
 
+
+
+    //для только рассеяных
+    G4Box* scat_solid = new G4Box("scat_solid", 3000, radiatorThin / 2, 3000 );
+    G4LogicalVolume *scat_log = new G4LogicalVolume(scat_solid, LG , "scat_log");
+    new G4PVPlacement(0, G4ThreeVector(0,distance1 + 10*cm,0), scat_log, "scat_phys", log_world, true, 0);
+
+
     // радиатор
     G4Box* radiatorSolid = new G4Box("radiator", radiatorHeight/2, radiatorThin / 2, radiatorLength/2 );
 
-    radiatorLogical = new G4LogicalVolume(radiatorSolid, PbF2 , "radiatorlog");
+    radiatorLogical = new G4LogicalVolume(radiatorSolid, LG , "radiatorlog");
 
     G4VisAttributes* radiatorVisAttributes = new G4VisAttributes(G4Colour(0.8, 0.8, 0.8));
     radiatorVisAttributes->SetVisibility(true);
